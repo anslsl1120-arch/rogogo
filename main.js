@@ -1,3 +1,5 @@
+console.log('Lotto Generator Script Loaded');
+
 document.getElementById('dark-mode-btn').addEventListener('click', () => {
     document.body.classList.toggle('dark-mode');
     const btn = document.getElementById('dark-mode-btn');
