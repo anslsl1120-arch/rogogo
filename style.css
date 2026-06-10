@@ -81,6 +81,64 @@ body.dark-mode #dark-mode-btn {
     color: #333;
 }
 
+/* Contact Form Styles */
+.separator {
+    margin: 2rem 0;
+    border: 0;
+    border-top: 1px solid #eee;
+}
+
+body.dark-mode .separator {
+    border-top-color: #444;
+}
+
+.contact-section {
+    margin-top: 2rem;
+    text-align: left;
+}
+
+.contact-section h2 {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+.form-group {
+    margin-bottom: 1rem;
+}
+
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-family: inherit;
+}
+
+textarea {
+    height: 100px;
+    resize: vertical;
+}
+
+body.dark-mode input[type="email"],
+body.dark-mode textarea {
+    background-color: #3d3d3d;
+    border-color: #555;
+    color: white;
+}
+
+.submit-btn {
+    width: 100%;
+    background-color: #28a745;
+    margin-top: 0.5rem;
+}
+
+.submit-btn:hover {
+    background-color: #218838;
+}
+
 button {
     padding: 12px 24px;
     font-size: 1.1rem;
