@@ -3,17 +3,24 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    min-height: 100vh;
     margin: 0;
+    padding: 2rem 0;
     background-color: #f0f2f5;
 }
 
 .container {
+    width: 90%;
+    max-width: 600px;
     text-align: center;
     background: white;
     padding: 2rem;
     border-radius: 15px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+#disqus_thread {
+    margin-top: 2rem;
 }
 
 h1 {
