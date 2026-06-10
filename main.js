@@ -1,3 +1,13 @@
+document.getElementById('dark-mode-btn').addEventListener('click', () => {
+    document.body.classList.toggle('dark-mode');
+    const btn = document.getElementById('dark-mode-btn');
+    if (document.body.classList.contains('dark-mode')) {
+        btn.textContent = '☀️ 라이트 모드';
+    } else {
+        btn.textContent = '🌙 다크 모드';
+    }
+});
+
 document.getElementById('generate-btn').addEventListener('click', () => {
     const numbers = [];
     while (numbers.length < 6) {
